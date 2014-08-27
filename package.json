@@ -25,6 +25,6 @@
     "express": "^4.7.1",
     "cluster-service": "^1.0.5",
     "body-parser": "^1.6.3",
-    "express-dependency-injector": "^1.0.1"
+    "express-dependency-injector": "^1.1.0"
   }
 }
