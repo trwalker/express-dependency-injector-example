@@ -1,0 +1,12 @@
+{
+  "repositories": [
+    { "item": "../repositories/userrepository", "dependencies": [], "scope": "singleton" }
+  ],
+  "services": [
+    { "item": "../services/cacheservice", "dependencies": [], "scope": "transient" },
+    { "item": "../services/userservice", "dependencies": [ "../services/cacheservice", "../repositories/userrepository"], "scope": "webrequest" }
+  ],
+  "controllers": [
+    { "item": "../controllers/usercontroller", "dependencies": [ "../services/userservice" ], "scope": "webrequest" }
+  ]
+}

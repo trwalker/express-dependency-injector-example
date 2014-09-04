@@ -22,9 +22,9 @@
     "node-inspector": "^0.7.4"
   },
   "dependencies": {
-    "express": "^4.7.1",
-    "cluster-service": "^1.0.5",
     "body-parser": "^1.6.3",
-    "express-dependency-injector": "^2.0.1"
+    "cluster-service": "^1.0.5",
+    "express": "^4.7.1",
+    "express-dependency-injector": "^2.0.3"
   }
 }
