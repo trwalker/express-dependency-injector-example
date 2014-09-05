@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "route": "/users/:id", "method": "GET", "controller": "../controllers/usercontroller" },
+    { "route": "/users", "method": "PUT", "controller": "../controllers/usercontroller" }
+  ]
+}
