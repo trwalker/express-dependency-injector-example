@@ -1,7 +1,9 @@
 'use strict';
 
-var SettingsConfig = require('./lib/config/settingsconfig');
-var settingsConfig = new SettingsConfig(process);
+var SettingsConfig = require('./lib/config/settings/settingsconfig');
+var os = require('os');
+
+var settingsConfig = new SettingsConfig(process, os);
 
 settingsConfig.initializeSettings();
 
