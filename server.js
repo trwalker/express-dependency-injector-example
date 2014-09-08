@@ -9,7 +9,7 @@ settingsConfig.initializeSettings();
 
 if(settings.clusterEnabled === 1) {
 	require('cluster-service').start({ workers: './lib/config/workerconfig.js',
-																	 	accessKey: '123',
+																	 	accessKey: settings.clusterAccessKey,
 																	 	host: settings.hostName,
 																	 	port: settings.masterPort });
 }

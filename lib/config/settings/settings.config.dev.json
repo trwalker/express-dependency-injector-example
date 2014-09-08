@@ -1,6 +1,6 @@
 {
   "settings": [
     { "name": "queueLength", "value": 10 },
-    { "name": "userServiceUrl", "value": "http://users.api.dev-domain.com" }
+    { "name": "clusterAccessKey", "value": "EztkLYu5UvEeTsk3" }
   ]
 }
